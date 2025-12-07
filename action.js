@@ -2,9 +2,8 @@
 time = document.getElementsByClassName('bubbles')[0];
 
 // padding values for desktop
-var fish2move = 100;
-var fish3move = 900;
-var fish4move = 1200;
+var fishBaseTop = [85, 72, 60, 48];
+var fishVerticalSpeed = [0.12, 0.1, 0.08, 0.06];
 
 if (screen.width < 400) {
 
@@ -12,10 +11,8 @@ if (screen.width < 400) {
     time.style.setProperty('--transform-duration', '15s')
     time.style.setProperty('--transform-y', '-700vh')
 
-    // padding values for mobile
-    fish2move = 1680;
-    fish3move = 3000;
-    fish4move = 4300;
+    // Reduce fish speeds on smaller screens
+    fishVerticalSpeed = fishVerticalSpeed.map((speed) => speed * 0.6);
 }
 
 
@@ -49,11 +46,11 @@ window.addEventListener('scroll', function () {
         splash.style.top = 20 + value * -0.3 + 'px';
     }
 
-    //Move fishes horizontally
-    fish1.style.right = (value - 100) * 1 + 'px';
-    fish2.style.left = (value - fish2move) * 1 + 'px';
-    fish3.style.right = (value - fish3move) * 1 + 'px';
-    fish4.style.left = (value - fish4move) * 1 + 'px';
+    //Move fishes vertically from seabed toward the surface
+    fish1.style.top = `calc(${fishBaseTop[0]}% - ${value * fishVerticalSpeed[0]}px)`;
+    fish2.style.top = `calc(${fishBaseTop[1]}% - ${value * fishVerticalSpeed[1]}px)`;
+    fish3.style.top = `calc(${fishBaseTop[2]}% - ${value * fishVerticalSpeed[2]}px)`;
+    fish4.style.top = `calc(${fishBaseTop[3]}% - ${value * fishVerticalSpeed[3]}px)`;
 })
 
 
