@@ -175,6 +175,49 @@ section #text {
     margin-bottom: 2%;
 }
 
+.album {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.album-header p {
+    margin: 10px 0 0;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1em;
+}
+
+.album-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.35);
+}
+
+.album-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.album-card figcaption {
+    padding: 0.8em 1em 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 /* Properties for middle section (below water) */
 .sec {
     position: relative;
@@ -372,6 +415,14 @@ section #text {
 
     .glass {
         backdrop-filter: blur(1px);
+    }
+
+    .album-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .album-card img {
+        height: 180px;
     }
 
     #sea1 {
