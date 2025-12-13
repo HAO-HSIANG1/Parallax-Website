@@ -175,103 +175,6 @@ section #text {
     margin-bottom: 2%;
 }
 
-.album {
-    margin: 4% 0;
-}
-
-.album__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.eyebrow {
-    font-size: 0.8em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.7);
-    margin-bottom: 8px;
-}
-
-.album__description {
-    max-width: 480px;
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.album__grid {
-    margin-top: 1.5em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.album__card {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03));
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 18px;
-    overflow: hidden;
-    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.35);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.album__card:hover {
-    transform: translateY(-6px);
-    box-shadow: 14px 14px 40px rgba(0, 0, 0, 0.45);
-}
-
-.album__frame {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.08);
-}
-
-.album__frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.4s ease;
-}
-
-.album__card:hover .album__frame img {
-    transform: scale(1.04);
-}
-
-.album__caption {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 14px 16px 16px;
-    background: linear-gradient(180deg, rgba(8, 90, 122, 0.8) 0%, rgba(8, 90, 122, 0.6) 100%);
-}
-
-.album__title {
-    font-size: 1.1em;
-    font-weight: 700;
-}
-
-.album__link {
-    font-size: 0.9em;
-    color: #b8f3ff;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    letter-spacing: 0.5px;
-}
-
-.album__link::after {
-    content: '\f08e';
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 0.9em;
-}
-
 /* Properties for middle section (below water) */
 .sec {
     position: relative;
@@ -459,14 +362,6 @@ section #text {
 
     .sec p {
         margin: 1% 4%;
-    }
-
-    .album__header {
-        align-items: flex-start;
-    }
-
-    .album__description {
-        max-width: 100%;
     }
 
     #seabed {
