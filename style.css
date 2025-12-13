@@ -175,6 +175,56 @@ section #text {
     margin-bottom: 2%;
 }
 
+.gallery {
+    margin-top: 3em;
+    position: relative;
+    z-index: 10;
+}
+
+.gallery-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery-title {
+    font-size: 2.5em;
+    font-family: 'Rancho', cursive;
+    letter-spacing: 2px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5em;
+}
+
+.gallery-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 16px 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.gallery-card figcaption {
+    padding: 14px 16px;
+    line-height: 1.5;
+    background: linear-gradient(135deg, rgba(8, 90, 122, 0.6), rgba(8, 90, 122, 0.3));
+}
+
 /* Properties for middle section (below water) */
 .sec {
     position: relative;
@@ -362,6 +412,14 @@ section #text {
 
     .sec p {
         margin: 1% 4%;
+    }
+
+    .gallery-title {
+        font-size: 2em;
+    }
+
+    .gallery-card img {
+        height: 180px;
     }
 
     #seabed {
