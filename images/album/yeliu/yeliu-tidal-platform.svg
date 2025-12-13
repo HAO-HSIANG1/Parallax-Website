@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Yehliu tidal platform</title>
+  <desc id="desc">Layered tidal platform with pools reflecting the sky.</desc>
+  <defs>
+    <linearGradient id="morning" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d1e8ff"/>
+      <stop offset="100%" stop-color="#7fc4fd"/>
+    </linearGradient>
+    <linearGradient id="tidal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1d6a1"/>
+      <stop offset="100%" stop-color="#c08a3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#morning)"/>
+  <path d="M0,520 C180,500 320,480 500,500 C660,520 760,540 920,520 C1080,500 1200,460 1200,460 L1200,820 L0,820Z" fill="#7bb0e6" opacity="0.65"/>
+  <path d="M-40,600 C120,540 320,540 480,600 C600,640 740,660 900,630 C1050,600 1160,620 1240,660 L1240,820 L-40,820Z" fill="url(#tidal)"/>
+  <path d="M60,640 C200,600 340,610 460,640 C540,660 660,660 760,640 C880,620 1020,600 1140,630 L1140,760 C1020,720 860,720 740,740 C620,760 420,780 260,760 C180,750 120,700 60,640Z" fill="#a66b2d" opacity="0.45"/>
+  <rect x="120" y="640" width="180" height="40" rx="12" fill="#7fd4ff" opacity="0.85"/>
+  <rect x="480" y="640" width="210" height="44" rx="14" fill="#7fd4ff" opacity="0.85"/>
+  <rect x="820" y="630" width="180" height="42" rx="14" fill="#7fd4ff" opacity="0.85"/>
+  <text x="80" y="140" font-size="64" font-family="'Noto Sans TC','Segoe UI',sans-serif" fill="#165b87">潮間帶</text>
+  <text x="80" y="200" font-size="26" font-family="'Noto Sans TC','Segoe UI',sans-serif" fill="#0c3a58" opacity="0.8">Yehliu tidal platforms and pools</text>
+</svg>

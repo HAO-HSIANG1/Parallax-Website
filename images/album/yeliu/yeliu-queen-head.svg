@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Yehliu Queen's Head silhouette</title>
+  <desc id="desc">Stylized outline of the famous Queen's Head rock at Yehliu Geopark.</desc>
+  <defs>
+    <linearGradient id="dusk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="rockHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f7d08a"/>
+      <stop offset="100%" stop-color="#c6761a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#dusk)"/>
+  <circle cx="240" cy="200" r="120" fill="#ffdc80" opacity="0.85"/>
+  <path d="M420,760 C460,680 480,590 540,520 C620,430 640,320 610,230 C590,180 550,150 520,130 C640,120 700,160 750,220 C810,290 800,370 750,430 C700,500 680,600 700,760 Z" fill="url(#rockHighlight)"/>
+  <path d="M520,130 C440,120 380,160 360,230 C350,270 360,320 390,370 C420,420 460,470 480,520 C500,570 480,680 440,760 L700,760 C660,640 670,550 720,470 C760,410 780,340 750,280 C720,220 640,160 520,130Z" fill="#8c5716" opacity="0.75"/>
+  <rect y="720" width="1200" height="80" fill="#0b1c2b"/>
+  <text x="840" y="700" font-size="56" font-family="'Noto Sans TC','Segoe UI',sans-serif" fill="#f7d08a" opacity="0.9">女王頭</text>
+  <text x="840" y="750" font-size="22" font-family="'Noto Sans TC','Segoe UI',sans-serif" fill="#e8e0d5" opacity="0.75">Queen's Head at Yehliu</text>
+</svg>

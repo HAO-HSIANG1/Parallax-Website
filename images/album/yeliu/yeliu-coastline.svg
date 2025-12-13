@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Yehliu coastline at golden hour</title>
+  <desc id="desc">Abstract illustration of Yehliu's coastal rocks under a warm sunset gradient.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffecd2"/>
+      <stop offset="100%" stop-color="#fcb69f"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d6a16d"/>
+      <stop offset="100%" stop-color="#8b5a2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect y="480" width="1200" height="320" fill="url(#sea)" opacity="0.85"/>
+  <path d="M0,520 Q200,480 380,520 T800,520 T1200,560 L1200,800 L0,800Z" fill="url(#sea)" opacity="0.95"/>
+  <path d="M0,640 Q180,600 360,640 T780,660 T1200,630 L1200,800 L0,800Z" fill="#0f3f61" opacity="0.5"/>
+  <path d="M-40,620 C140,540 260,560 420,610 C560,650 700,670 920,650 C1080,630 1180,660 1240,700 L1240,820 L-40,820Z" fill="url(#rock)"/>
+  <path d="M220,540 C260,500 320,500 360,540 C340,580 260,590 220,540Z" fill="#bf7f33" opacity="0.9"/>
+  <path d="M520,560 C560,510 620,520 660,560 C640,610 560,620 520,560Z" fill="#bf7f33" opacity="0.9"/>
+  <path d="M820,560 C860,520 920,530 960,570 C940,620 860,620 820,560Z" fill="#bf7f33" opacity="0.9"/>
+  <circle cx="980" cy="180" r="90" fill="#ffd27f" opacity="0.9"/>
+  <text x="60" y="120" font-size="72" font-family="'Noto Sans TC', 'Segoe UI', sans-serif" fill="#6c4324" opacity="0.8">野柳海岸</text>
+  <text x="60" y="190" font-size="28" font-family="'Noto Sans TC', 'Segoe UI', sans-serif" fill="#4f3d33" opacity="0.75">Sunset silhouette inspired by Yehliu Geopark</text>
+</svg>

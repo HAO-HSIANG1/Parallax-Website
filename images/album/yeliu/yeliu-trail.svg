@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Yehliu coastal trail</title>
+  <desc id="desc">Curving boardwalk trail leading toward the sea stacks.</desc>
+  <defs>
+    <linearGradient id="twilight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c9d6ff"/>
+      <stop offset="100%" stop-color="#e2e2e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#twilight)"/>
+  <path d="M0,560 Q200,500 420,530 T900,560 T1200,520 L1200,820 L0,820Z" fill="#4e7bb0" opacity="0.7"/>
+  <path d="M-20,640 C200,560 380,580 520,630 C660,680 860,700 1080,660 L1220,820 L-20,820Z" fill="#e0bd8c"/>
+  <path d="M120,660 C200,640 320,640 420,680 C520,720 660,740 780,700 C900,660 1020,650 1120,680 L1120,760 C980,720 860,740 760,760 C600,790 420,780 260,760 C180,750 140,720 120,660Z" fill="#c98d52" opacity="0.6"/>
+  <path d="M160,720 C240,700 320,700 440,740 C560,780 720,800 880,760 C960,740 1060,720 1140,740" stroke="#8b5a2b" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M220,650 C260,620 320,620 360,650 C340,700 260,700 220,650Z" fill="#b7792f"/>
+  <path d="M520,650 C560,620 620,620 660,650 C640,700 560,700 520,650Z" fill="#b7792f"/>
+  <path d="M820,650 C860,620 920,620 960,650 C940,700 860,700 820,650Z" fill="#b7792f"/>
+  <text x="80" y="140" font-size="60" font-family="'Noto Sans TC','Segoe UI',sans-serif" fill="#214066">步道風光</text>
+  <text x="80" y="200" font-size="24" font-family="'Noto Sans TC','Segoe UI',sans-serif" fill="#1f3350" opacity="0.8">Coastal walkways of Yehliu</text>
+</svg>
